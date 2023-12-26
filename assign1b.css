@@ -1,0 +1,33 @@
+.outerContain{
+    background-image: url(CodeQuoteBg.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+body{
+    width: 25%;
+    margin: auto;
+}
+
+.innerContain{
+    height: 50vh;
+    width: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid greenyellow;
+}
+
+.headinghai{
+    text-align:left;
+    font-size: 60px;
+    font-weight: bold;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}

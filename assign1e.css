@@ -1,0 +1,81 @@
+.outerContain{
+    background-image: url(houseBg.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+    margin-bottom: 20px;
+    
+}
+body{
+    width: 25%;
+    margin: auto;
+}
+
+.innerContain{
+    height: 24vh;
+    width: 82%;
+    
+    padding: 20px;
+   
+    background-color: rgba(255, 255, 255, 0.615);
+    
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    
+    }
+
+.headinghai{
+    text-align:left;
+   
+    font-weight: bolder;
+    color: purple;
+    text-align: center;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parahai{
+    font-size: 20px;
+    
+    font-family: serif;
+    text-align: center;
+}
+
+.buttonhai{
+    display: block;
+    margin: auto;
+    background-color: aliceblue;
+    border: 0px;
+    height: 50px;
+    font-size: 20px;
+    width: 150px;
+    margin-top: 6px;
+    border-radius: 15px;
+}
+
+.buttonhai2{
+    display: block;
+    margin: auto;
+    background-color: purple;
+    border: 0px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    width: 150px;
+    margin-top: 6px;
+    border-radius: 15px;
+}
+
+.buttonContainer{
+    display: flex;
+    margin: 10%;
+    justify-content: space-evenly;
+}
