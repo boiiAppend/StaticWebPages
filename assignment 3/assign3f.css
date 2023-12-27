@@ -1,0 +1,25 @@
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color: gainsboro;
+   
+}
+
+.main{
+    height: 92vh;
+    width: 30%;
+    background-color: orange;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.main1{
+    height: 50%;
+    width: 95%;
+    background-color: white;
+    
+    margin: auto;
+    margin-top: 2%;0
+    
+}

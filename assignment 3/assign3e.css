@@ -16,7 +16,7 @@ body{
 }
 
 .allu{
-    height: 19%;
+    height: 23%;
     width:100%;
     
     
@@ -51,13 +51,14 @@ body{
 .para{
     height: 100%;
     width: 60%;
+    margin-top: 0px;
    
 }
 
 .has3box{
     height: 20%;
     width: 100%;
-    
+    margin-bottom: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,10 +77,10 @@ body{
 }
 
 .btn{
-    height: 50px;
+    height: 40px;
     width: 60%;
     border: 0px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     margin-left: 0px;
     color: white;
@@ -88,7 +89,7 @@ body{
 }
 
 .las{
-    height: 25%;
+    height: 26%;
     width: 95%;
     background-color: rgba(249, 145, 145, 0.499);
     border-radius: 25px;
@@ -101,6 +102,7 @@ body{
 }
 
 .can{
+    margin-top: 20px;
     
     margin-bottom: 60px;
     border-radius: 10px;
@@ -111,6 +113,7 @@ body{
 }
 
 .imgg{
+    margin-top: 20px;
     height: 60%;
     margin-left: 10px;
     margin-bottom: 60px;
