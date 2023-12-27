@@ -1,0 +1,76 @@
+body{
+    
+    height: 100vh;
+    will-change: 100vw;
+    padding: 0%;
+    margin: 0%;
+}
+
+.upperwala{
+    height: 16vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.upperke{
+    height: 100%;
+    width: 33%;
+    background-color: lightcoral;
+}
+
+.neechewala{
+    display: flex;
+    justify-content: center;
+    height: 83vh;
+    width: 100vw;
+}
+.neecheke1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    background-color: gray;
+    margin: 0.3%;
+
+}
+.neecheke2{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    margin: 0.1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.beechka{
+    height: 25%;
+    width: 25%;
+    background-color: yellow;
+
+}
+
+.neecheleft{
+    height: 24%;
+    width: 100%;
+    background-color: darkolivegreen;
+    margin: 0%;
+}
+
+.neecheleftt{
+    height: 24%;
+    width: 100%;
+    background-color: darkolivegreen;
+    margin-top: 0px;
+}
+
+.neecheleftd{
+    height: 24%;
+    width: 100%;
+    background-color: darkolivegreen;
+    margin-bottom: 0px;
+}
