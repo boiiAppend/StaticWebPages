@@ -1,22 +1,31 @@
 .outerContain{
     background-image: url(VrBg.jpg);
     background-size: cover;
+   
+    margin: auto;
     height: 100vh;
-    
-    
+    width: 30vw;
     display: flex;
     justify-content: center;
     align-items: end;
     margin-bottom: 20px;
     
 }
-body{
-    width: 25%;
-    margin: auto;
+
+.container{
+
+    height: 100vh;
+    width: 100vw;
+}
+
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0%;
 }
 
 .innerContain{
-    height: 33vh;
+    height: 40vh;
     width: 100%;
     
    
@@ -25,12 +34,13 @@ body{
     border-top-right-radius: 25px;
     display: flex;
     flex-direction: column;
-    align-items:stretch;
+    justify-content: space-evenly;
+   
 }
 
 .headinghai{
     text-align:left;
-    margin: 9px;
+    margin-left: 10px;
     margin-top: 18px;
     font-weight: bolder;
     color: purple;
@@ -39,37 +49,39 @@ body{
 
 .parahai{
     font-size: 20px;
-    margin: 9px;
-    margin-bottom: 0px;
+    margin-left: 10px;
+    
+    
     font-family: serif;
 }
 
 .buttonhai{
     display: block;
-    margin: auto;
+   
     background-color: aliceblue;
     border: 0px;
     height: 50px;
     font-size: 20px;
     width: 150px;
-    margin-top: 6px;
+    
     border-radius: 15px;
 }
 
 .buttonhai2{
     display: block;
-    margin: auto;
+    
     background-color: purple;
     border: 0px;
     height: 50px;
     font-size: 20px;
     color: white;
     width: 150px;
-    margin-top: 6px;
+    
     border-radius: 15px;
 }
 
 .buttonContainer{
     display: flex;
+    
     justify-content: space-evenly;
 }

@@ -1,0 +1,236 @@
+@media (max-width:843px) {
+    *{
+        padding: 0%;
+        margin: 0%;
+    
+    }
+    
+ 
+    .container{
+        height: 100vh;
+        width: 100vw;
+        box-sizing: border-box;
+        background-color: rgb(30, 2, 57);
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+        
+    
+    }
+    
+    .box1{
+        height: 19%;
+        width: 100%;
+        
+        
+        background-image: url(bookBG.jpg);
+        background-size: cover;
+    }
+
+    .box1 img{
+        margin-left: 0;
+        margin-top: 10px;
+        height: 90px;
+    }
+
+    .box1 ul{
+        display: none;
+    }
+
+    .box1 h3{
+        display: none;
+    }
+    
+    .box2{
+        height: 81%;
+        width: 100%;
+        
+        
+        
+
+    }
+    .box22{
+        height: 90%;
+        width: 100%;
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        align-items: center;
+       
+    }
+
+    .box2 h3{
+        margin: 5px;
+        margin-left: 5px;
+        
+
+    }
+
+    .box2-inside{
+        
+        margin: 3px 3px 3px 3px;
+        
+        width: 160px;
+        
+        height: 240px;
+        
+        background-color: white;
+        
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    h3{
+        margin-top: 20px;
+        font-size: 27px;
+        margin-bottom: 15px;
+        color: white;
+        margin-left: 15px;
+    }
+
+    .box2-inside-rows{
+        height: 40%;
+        width: 95%;
+        border-radius: 10px;
+        
+        display: flex;
+        align-items: center;
+        color: black;
+
+    }
+
+    .box2-inside-rows img{
+        height: 70px;
+    }
+    
+    .box2-inside-rows p{
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.57);
+    }
+
+    h4{
+        margin-bottom: 5px;
+    }
+
+    .inside-content{
+        margin-left: 10px;
+    }
+
+}
+
+@media (min-width:843px) {
+    .container{
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        background-color: rgb(30, 2, 57);
+    }
+
+    .box1{
+        
+        width: 15%;
+        height: 100%;
+        background-image: url(bookBG.jpg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+
+        border-radius: 10px;
+    }
+
+    .box1 img{
+        height: 100px;
+        margin: 10px;
+        
+    }
+
+    .box1-inside li{
+        margin-top: 5px;
+    }
+
+    .box1-inside{
+        height: 85%;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-bottom: 5px;
+        align-items: center;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .box2-inside-rows img{
+        height: 90px;
+        margin-left: 10px;
+        border-radius: 5px;
+    }
+
+    .box2{
+        height: 100%;
+        width: 100%;
+        
+        
+       
+        
+    }
+
+    .box22{
+        height: 500px;
+        width: 100%;
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: start;
+       
+    }
+
+    .box2-inside{
+        width: 160px;
+        margin: 10px;
+        height: 260px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        border-radius: 25px;
+    }
+
+    .box2-inside-rows{
+        height: 30%;
+        display: flex;
+        padding: 20px 0 20px 0;
+    }
+    .box2 h3{
+        
+        margin: 10px;
+        color: white;
+        font-size: 90px;
+        
+        
+    }
+
+    .inside-content{
+        margin-left: 19px;
+    }
+
+    .inside-content h4{
+        margin-bottom: 10px;
+    }
+
+}
+

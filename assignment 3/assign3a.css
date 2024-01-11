@@ -1,12 +1,18 @@
-body{
-    height: 100%;
-    width: 100%;
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
 }
 
 .mainBox{
-    height: 85vh;
+    height: 90vh;
     width: 100vw;
-    background-color:antiquewhite;
+    
     display: flex;
     justify-content: space-evenly;
     
@@ -17,13 +23,13 @@ body{
     width: 100vw;
     display: flex;
     justify-content: end;
-    background-color: antiquewhite;
+    
 }
 
 .rightBig{
     height: 96%;
     width: 90vw;
-    background-color:antiquewhite;
+    
     margin: auto;
     display: flex;
     justify-content:space-around;
@@ -34,8 +40,8 @@ body{
     height: 96%;
     width: 8vw;
     margin: auto;
-    background-color: gray;
-    border-radius: 25px;
+    
+    
 }
 
 .rightUp{
@@ -52,6 +58,15 @@ body{
 .para{
     font-size: 3vh;
     color: white;
+    
+}
+
+.para-align-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    
 }
 
 .rightDown{
@@ -70,9 +85,9 @@ body{
 .s60wala{
     height: 100%;
     width: 57vw;
-    background-color: gray;
+    
     margin-right: 0.4%;
-    border-radius: 25px;
+    
 }
 
 .s60walaD{
@@ -83,16 +98,16 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    border-radius: 25px;
+    
 }
 
 .half1{
 
     height: 50%;
-    background-color: gray;
+    
     width:100%;
     margin-bottom: 0.6%;
-    border-radius: 25px;
+   
 }
 
 .half2{
@@ -104,14 +119,14 @@ body{
     
     display: flex;
     justify-content: space-evenly;
-    border-radius: 25px;
+   
    
 }
 
 .f40wala{
     height: 100%;
     width: 37vw;
-    background-color: antiquewhite;
+    
     margin-left: 0.4%;
     display: flex;
     justify-content: space-evenly;
@@ -122,25 +137,25 @@ body{
     height: 50%;
     width: 100%;
     margin-top: 0.9%;
-    background-color:gray;
-    border-radius: 25px;
+    
+    
 }
 
 .halfwala2{
     height: 50%;
     width: 100%;
-    background-color: gray;
+    
     margin-bottom: 0.9%;
-    border-radius: 25px;
+    
    
 }
 
 .halff1{
     height: 100%;
     width: 49%;
-    background-color: gray;
+    
     margin-left: 0.8%;
-    border-radius: 25px;
+    
     
     
 }
@@ -148,8 +163,13 @@ body{
 .halff2{
     height: 100%;
     width: 49%;
-    background-color: gray;
+   
     margin-right: 0.8%;
-    border-radius: 25px;
+    
     
 }
+
+.border{
+    border-radius: 10px;
+}
+

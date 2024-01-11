@@ -11,7 +11,7 @@ body{
     width: 100vw;
     background-color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .upperke{
@@ -40,10 +40,10 @@ body{
     height: 100%;
     width: 50%;
     background-color: white;
-    margin: 0.1%;
+   margin-top: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
 }
 
@@ -74,3 +74,12 @@ body{
     background-color: darkolivegreen;
     margin-bottom: 0px;
 }
+
+.bg-color{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+

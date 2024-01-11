@@ -2,17 +2,19 @@
     background-image: url(FoodBg.jpg);
     background-size: cover;
     height: 100vh;
+    width: 100vw;
     
-    
+    margin: auto;
     display: flex;
-    justify-content: center;
+    
     align-items: end;
-    margin-bottom: 20px;
+    
     
 }
-body{
-    width: 25%;
-    margin: auto;
+
+*{
+    padding: 0;
+    margin: 0;    
 }
 
 .innerContain{
@@ -30,7 +32,7 @@ body{
 
 .headinghai{
     text-align:left;
-    margin: 9px;
+    margin-left: 9px;
     margin-top: 18px;
     font-weight: bolder;
     color: black;
@@ -47,7 +49,7 @@ body{
 .buttonhai{
     display: block;
     margin: auto;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     border: 0px;
     height: 50px;
     font-size: 20px;
